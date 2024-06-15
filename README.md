@@ -1,6 +1,5 @@
 # RealTime-Chatting-Application-
-ChattingApp is a simple UDP-based chat application developed in C#. It allows clients to send and receive messages over a network. This is a basic implementation for learning purposes, demonstrating the use of asynchronous communication with Multi-Threading &amp; UDP Client in Windows Forms.
-This C# code defines a simple chat application using UDP for communication between clients. Here's a detailed explanation of the various parts of the code along with a GitHub description.
+ChattingApp is a simple UDP-based chat application developed in C#. It allows clients to send and receive messages over a network. with the use of asynchronous communication with Multi-Threading &amp; UDP Client in Windows Forms.
 
 ## ChattingApp
 
