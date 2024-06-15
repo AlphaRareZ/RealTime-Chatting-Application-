@@ -113,8 +113,8 @@
             Controls.Add(richTextBox1);
             Controls.Add(button1);
             Controls.Add(IPAddressTextBox);
-            Name = "Form1";
-            Text = "Form1";
+            Name = "Chatting Application";
+            Text = "Chatting Application";
             ResumeLayout(false);
             PerformLayout();
         }

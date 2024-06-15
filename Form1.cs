@@ -1,6 +1,7 @@
 using System.Formats.Asn1;
 using System.Net;
 using System.Net.Sockets;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Xml.Schema;
 namespace ChattingApp
@@ -42,7 +43,10 @@ namespace ChattingApp
         private void button2_Click(object sender, EventArgs e)
         {
             server.Connect(remoteIP_Address);
-            server.Send(Encoding.ASCII.GetBytes(messageBox.Text), messageBox.Text.Length);
+            String s = messageBox.Text;
+            String toBeSent = clientName + ": " + s;
+            server.Send(Encoding.ASCII.GetBytes(toBeSent), toBeSent.Length);
+            ControlInvoke(richTextBox1, () => richTextBox1.AppendText("Me: "+s+Environment.NewLine));
             messageBox.Clear();
         }
         public static void ControlInvoke(Control control,Action function)

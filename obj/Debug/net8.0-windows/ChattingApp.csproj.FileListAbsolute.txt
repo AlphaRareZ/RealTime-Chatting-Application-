@@ -30,3 +30,20 @@ C:\Users\Muhammed Alaa Eddin\source\repos\ChattingApp\obj\Debug\net8.0-windows\r
 C:\Users\Muhammed Alaa Eddin\source\repos\ChattingApp\obj\Debug\net8.0-windows\ChattingApp.pdb
 C:\Users\Muhammed Alaa Eddin\source\repos\ChattingApp\obj\Debug\net8.0-windows\ChattingApp.genruntimeconfig.cache
 C:\Users\Muhammed Alaa Eddin\source\repos\ChattingApp\obj\Debug\net8.0-windows\ref\ChattingApp.dll
+D:\Projects\C#\ChattingAppWorkingUDP\obj\Debug\net8.0-windows\ChattingApp.Form1.resources
+D:\Projects\C#\ChattingAppWorkingUDP\obj\Debug\net8.0-windows\ChattingApp.csproj.GenerateResource.cache
+D:\Projects\C#\ChattingAppWorkingUDP\obj\Debug\net8.0-windows\ChattingApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\C#\ChattingAppWorkingUDP\obj\Debug\net8.0-windows\ChattingApp.AssemblyInfoInputs.cache
+D:\Projects\C#\ChattingAppWorkingUDP\obj\Debug\net8.0-windows\ChattingApp.AssemblyInfo.cs
+D:\Projects\C#\ChattingAppWorkingUDP\obj\Debug\net8.0-windows\ChattingApp.csproj.CoreCompileInputs.cache
+D:\Projects\C#\ChattingAppWorkingUDP\obj\Debug\net8.0-windows\ChattingApp.sourcelink.json
+D:\Projects\C#\ChattingAppWorkingUDP\obj\Debug\net8.0-windows\ChattingApp.dll
+D:\Projects\C#\ChattingAppWorkingUDP\obj\Debug\net8.0-windows\refint\ChattingApp.dll
+D:\Projects\C#\ChattingAppWorkingUDP\obj\Debug\net8.0-windows\ChattingApp.pdb
+D:\Projects\C#\ChattingAppWorkingUDP\bin\Debug\net8.0-windows\ChattingApp.exe
+D:\Projects\C#\ChattingAppWorkingUDP\bin\Debug\net8.0-windows\ChattingApp.deps.json
+D:\Projects\C#\ChattingAppWorkingUDP\bin\Debug\net8.0-windows\ChattingApp.runtimeconfig.json
+D:\Projects\C#\ChattingAppWorkingUDP\bin\Debug\net8.0-windows\ChattingApp.dll
+D:\Projects\C#\ChattingAppWorkingUDP\bin\Debug\net8.0-windows\ChattingApp.pdb
+D:\Projects\C#\ChattingAppWorkingUDP\obj\Debug\net8.0-windows\ChattingApp.genruntimeconfig.cache
+D:\Projects\C#\ChattingAppWorkingUDP\obj\Debug\net8.0-windows\ref\ChattingApp.dll
