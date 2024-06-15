@@ -17,7 +17,7 @@ ChattingApp is a simple UDP-based chat application developed in C#. It allows cl
 1. Clone the repository.
 2. Open the solution in Visual Studio.
 3. Run the application.
-5. Click "Connect" to begin listening for messages.
+5. Click `Connect` to begin listening for messages.
 6. Type a message and click "Send" to transmit the message to the remote client.
 
 ### Requirements
