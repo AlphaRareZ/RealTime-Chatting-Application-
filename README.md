@@ -5,6 +5,9 @@ Chatting App is a simple UDP-based chat application developed in C# & MS SQL Ser
 
 ChattingApp is a simple UDP-based chat application developed in C#. It allows clients to send and receive messages over a network. This is a basic implementation for learning purposes, demonstrating the use of asynchronous communication with `UdpClient` in Windows Forms.
 ### ScreenShots
+Sign In & Sign Up 
+![Alt text](screenshots/1.png)
+RealTime Chat Application
 ![Alt text](screenshots/3.png)
 
 ### Features
