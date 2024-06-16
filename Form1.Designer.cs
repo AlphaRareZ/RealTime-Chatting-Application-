@@ -86,7 +86,7 @@ namespace ChattingApp
             button2.TabIndex = 4;
             button2.Text = "Send";
             button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            button2.Click += button2_ClickAsync;
             // 
             // label1
             // 

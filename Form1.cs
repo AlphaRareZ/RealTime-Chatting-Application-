@@ -1,3 +1,4 @@
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Formats.Asn1;
 using System.Net;
 using System.Net.Sockets;
@@ -13,6 +14,7 @@ namespace ChattingApp
         int port;
         int remotePort;
         String clientName;
+        ProxyDatabase proxyDatabase = new ProxyDatabase();
 
         public Form1(String clientName, int port, int remotePort)
         {
@@ -40,10 +42,13 @@ namespace ChattingApp
             ControlInvoke(richTextBox1, () => richTextBox1.AppendText(":>> " + Encoding.ASCII.GetString(buff) + Environment.NewLine));
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private async void button2_ClickAsync(object sender, EventArgs e)
         {
             server.Connect(remoteIP_Address);
             String s = messageBox.Text;
+            if (String.IsNullOrEmpty(s)) return;
+            await proxyDatabase.insertAsync(clientName, remotePort.ToString(), s);
+
             String toBeSent = clientName + ": " + s;
             server.Send(Encoding.ASCII.GetBytes(toBeSent), toBeSent.Length);
             ControlInvoke(richTextBox1, () => richTextBox1.AppendText("Me: "+s+Environment.NewLine));
