@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Muhammed Alaa Eddin\\source\\repos\\ChattingAppAli\\ChattingApp.csproj": {}
+    "D:\\Projects\\C#\\ChattingAppWorkingUDP\\ChattingApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Muhammed Alaa Eddin\\source\\repos\\ChattingAppAli\\ChattingApp.csproj": {
+    "D:\\Projects\\C#\\ChattingAppWorkingUDP\\ChattingApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Muhammed Alaa Eddin\\source\\repos\\ChattingAppAli\\ChattingApp.csproj",
+        "projectUniqueName": "D:\\Projects\\C#\\ChattingAppWorkingUDP\\ChattingApp.csproj",
         "projectName": "ChattingApp",
-        "projectPath": "C:\\Users\\Muhammed Alaa Eddin\\source\\repos\\ChattingAppAli\\ChattingApp.csproj",
+        "projectPath": "D:\\Projects\\C#\\ChattingAppWorkingUDP\\ChattingApp.csproj",
         "packagesPath": "C:\\Users\\Muhammed Alaa Eddin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Muhammed Alaa Eddin\\source\\repos\\ChattingAppAli\\obj\\",
+        "outputPath": "D:\\Projects\\C#\\ChattingAppWorkingUDP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Muhammed Alaa Eddin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {

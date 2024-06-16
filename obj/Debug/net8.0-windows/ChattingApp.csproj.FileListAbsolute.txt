@@ -47,3 +47,4 @@ D:\Projects\C#\ChattingAppWorkingUDP\bin\Debug\net8.0-windows\ChattingApp.dll
 D:\Projects\C#\ChattingAppWorkingUDP\bin\Debug\net8.0-windows\ChattingApp.pdb
 D:\Projects\C#\ChattingAppWorkingUDP\obj\Debug\net8.0-windows\ChattingApp.genruntimeconfig.cache
 D:\Projects\C#\ChattingAppWorkingUDP\obj\Debug\net8.0-windows\ref\ChattingApp.dll
+D:\Projects\C#\ChattingAppWorkingUDP\obj\Debug\net8.0-windows\ChattingApp.Properties.Resources.resources
