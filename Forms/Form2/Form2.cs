@@ -1,5 +1,4 @@
-﻿
-using ChattingApp.Database;
+﻿using ChattingApp.Database;
 
 namespace ChattingApp.Forms.Form2
 {
@@ -9,6 +8,7 @@ namespace ChattingApp.Forms.Form2
         {
             InitializeComponent();
         }
+
         ProxyDatabase database = ProxyDatabase.getInstance();
 
         private async void SignUpButton_Click(object sender, EventArgs e)
@@ -19,11 +19,13 @@ namespace ChattingApp.Forms.Form2
             }
             else
             {
-                await database.insertUserAsync(nameTxt.Text,emailTxt.Text, passwordTxt.Text);
+                await database.insertUserAsync(nameTxt.Text, emailTxt.Text, passwordTxt.Text);
                 MessageBox.Show("User Added Successfully");
             }
         }
+
         Form SignInForm = null;
+
         private void SignInButton_Click(object sender, EventArgs e)
         {
             if (SignInForm == null) SignInForm = new Form3.Form3();

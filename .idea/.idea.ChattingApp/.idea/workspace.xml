@@ -8,55 +8,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="154b9ecc-7163-46ea-a154-363ce9541609" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ChattingApp.sln.DotSettings.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Database/Database.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Database/ProxyDatabase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forms/Form1/Form1.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forms/Form1/Form1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forms/Form1/Form1.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forms/Form2/Form2.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forms/Form2/Form2.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forms/Form2/Form2.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forms/Form3/Form3.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forms/Form3/Form3.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forms/Form3/Form3.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0-windows/ChattingApp.Forms.Form1.Form1.resources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0-windows/ChattingApp.Forms.Form2.Form2.resources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0-windows/ChattingApp.Forms.Form3.Form3.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ChattingApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ChattingApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Form1.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Form1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Form1.resx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Form2.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Form2.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Form2.resx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Form3.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Form3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Form3.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Database.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Database/Database.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/ProxyDatabase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Database/ProxyDatabase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forms/Form1/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Forms/Form1/Form1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forms/Form2/Form2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Forms/Form2/Form2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forms/Form3/Form3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Forms/Form3/Form3.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/User.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProxyDatabase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0-windows/ChattingApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0-windows/ChattingApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0-windows/ChattingApp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0-windows/ChattingApp.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0-windows/ChattingApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0-windows/ChattingApp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/ChattingApp.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/ChattingApp.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/ChattingApp.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/ChattingApp.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0-windows/ChattingApp.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0-windows/ChattingApp.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0-windows/ChattingApp.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0-windows/ChattingApp.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0-windows/ChattingApp.Form1.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0-windows/ChattingApp.Form2.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0-windows/ChattingApp.Form3.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0-windows/ChattingApp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0-windows/ChattingApp.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0-windows/ChattingApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0-windows/ChattingApp.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0-windows/ChattingApp.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0-windows/ChattingApp.csproj.GenerateResource.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0-windows/ChattingApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0-windows/ChattingApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0-windows/ChattingApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0-windows/ChattingApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0-windows/ChattingApp.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0-windows/ChattingApp.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0-windows/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0-windows/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0-windows/ref/ChattingApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0-windows/ref/ChattingApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0-windows/refint/ChattingApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0-windows/refint/ChattingApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" afterDir="false" />
@@ -87,29 +49,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.ChattingApp.executor": "Run",
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "HotReloadSettingsPage",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.ChattingApp.executor&quot;: &quot;Run&quot;,
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;HotReloadSettingsPage&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\Muhammed Alaa Eddin\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\Muhammed Alaa Eddin\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\Muhammed Alaa Eddin\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Muhammed Alaa Eddin\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Muhammed Alaa Eddin\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Muhammed Alaa Eddin\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ChattingApp" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -143,6 +105,7 @@
       <workItem from="1718549046343" duration="487000" />
       <workItem from="1718550435652" duration="314000" />
       <workItem from="1718565540319" duration="744000" />
+      <workItem from="1718567511388" duration="80000" />
     </task>
     <servers />
   </component>

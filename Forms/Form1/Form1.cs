@@ -19,7 +19,6 @@ namespace ChattingApp.Forms.Form1
             this.port = port;
             this.clientName = clientName;
             InitializeComponent();
-
         }
 
 
@@ -49,19 +48,23 @@ namespace ChattingApp.Forms.Form1
             {
                 byte[] buff = server.EndReceive(ar, ref remoteIP_Address);
                 server.BeginReceive(new AsyncCallback(onRecieve), server);
-                ControlInvoke(richTextBox1, () => richTextBox1.AppendText(":>> " + Encoding.ASCII.GetString(buff) + Environment.NewLine));
+                ControlInvoke(richTextBox1,
+                    () => richTextBox1.AppendText(":>> " + Encoding.ASCII.GetString(buff) + Environment.NewLine));
             }
             catch (ObjectDisposedException)
             {
                 // Handle the case when the server is closed
-                ControlInvoke(richTextBox1, () => richTextBox1.AppendText(":>> Connection closed" + Environment.NewLine));
+                ControlInvoke(richTextBox1,
+                    () => richTextBox1.AppendText(":>> Connection closed" + Environment.NewLine));
             }
             catch (Exception ex)
             {
                 // Handle any other exceptions
-                ControlInvoke(richTextBox1, () => richTextBox1.AppendText(":>> Error: " + ex.Message + Environment.NewLine));
+                ControlInvoke(richTextBox1,
+                    () => richTextBox1.AppendText(":>> Error: " + ex.Message + Environment.NewLine));
             }
         }
+
         private void button3_Click(object sender, EventArgs e)
         {
             try
@@ -88,20 +91,21 @@ namespace ChattingApp.Forms.Form1
             ControlInvoke(richTextBox1, () => richTextBox1.AppendText("Me: " + s + Environment.NewLine));
             messageBox.Clear();
         }
+
         public static void ControlInvoke(Control control, Action function)
         {
             if (control.Disposing || control.IsDisposed)
             {
                 return;
             }
+
             if (control.InvokeRequired)
             {
                 control.Invoke(() => ControlInvoke(control, function));
                 return;
             }
+
             function();
         }
-
-        
     }
 }
