@@ -1,6 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-
-namespace ChattingApp
+﻿namespace ChattingApp.Forms.Form1
 {
     partial class Form1
     {

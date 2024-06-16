@@ -1,7 +1,9 @@
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
-namespace ChattingApp
+using ChattingApp.Database;
+
+namespace ChattingApp.Forms.Form1
 {
     public partial class Form1 : Form
     {

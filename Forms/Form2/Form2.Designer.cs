@@ -1,7 +1,4 @@
-﻿using ChattingApp.Properties;
-using System.Runtime.CompilerServices;
-
-namespace ChattingApp
+﻿namespace ChattingApp.Forms.Form2
 {
     partial class Form2
     {

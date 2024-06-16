@@ -1,9 +1,6 @@
-﻿using ChattingApp.Properties;
-using System.Runtime.CompilerServices;
-
-namespace ChattingApp
+﻿namespace ChattingApp.Forms.Form3
 {
-    partial class Form3
+    partial class Form3:Form
     {
         /// <summary>
         ///  Required designer variable.

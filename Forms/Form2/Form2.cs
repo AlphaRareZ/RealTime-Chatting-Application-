@@ -1,4 +1,7 @@
-﻿namespace ChattingApp
+﻿
+using ChattingApp.Database;
+
+namespace ChattingApp.Forms.Form2
 {
     public partial class Form2 : Form
     {
@@ -23,7 +26,7 @@
         Form SignInForm = null;
         private void SignInButton_Click(object sender, EventArgs e)
         {
-            if (SignInForm == null) SignInForm = new Form3();
+            if (SignInForm == null) SignInForm = new Form3.Form3();
             SignInForm.Show();
             this.WindowState = FormWindowState.Minimized;
         }

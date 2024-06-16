@@ -1,18 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data.SqlClient;
 
-namespace ChattingApp
+namespace ChattingApp.Database
 {
     public class SQLDatabase
     {
         private static SQLDatabase? _SQLDatabase = null;
         private SqlConnection? _sqlConnection = null;
         private String connString = "Data Source = DESKTOP-VU7KF0Q;Initial Catalog = ChattingApp;Integrated Security = true";
-        public SqlConnection getSqlConnection() => _sqlConnection;
+        public SqlConnection? getSqlConnection() => _sqlConnection;
         private SQLDatabase()
         {
             _sqlConnection = new SqlConnection(connString);

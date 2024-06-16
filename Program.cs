@@ -1,4 +1,6 @@
-﻿namespace ChattingApp
+﻿using ChattingApp.Forms.Form3;
+
+namespace ChattingApp
 {
     internal static class Program
     {

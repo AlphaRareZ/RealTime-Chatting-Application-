@@ -1,14 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using ChattingApp.Database;
+using ChattingApp.Model;
 
-namespace ChattingApp
+namespace ChattingApp.Forms.Form3
 {
     // Form 3 Sign In Page
     public partial class Form3 : Form
@@ -28,7 +21,7 @@ namespace ChattingApp
             }
             else
             {
-                Form chatAppForm = new Form1(user.name,user.portNumber);
+                Form chatAppForm = new Form1.Form1(user.name,user.portNumber);
                 chatAppForm.Show();
                 this.WindowState = FormWindowState.Minimized;
             }
@@ -36,7 +29,7 @@ namespace ChattingApp
         Form signUpForm = null;
         private void SignUpButton_Click(object sender, EventArgs e)
         {
-            if (signUpForm == null) signUpForm = new Form2();
+            if (signUpForm == null) signUpForm = new Form2.Form2();
             signUpForm.Show();
             this.WindowState = FormWindowState.Minimized;
         }

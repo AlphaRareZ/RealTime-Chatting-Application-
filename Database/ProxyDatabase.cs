@@ -1,7 +1,9 @@
 ﻿using System.Data.SqlClient;
-namespace ChattingApp
+using ChattingApp.Model;
+
+namespace ChattingApp.Database
 {
-    internal class ProxyDatabase
+    public class ProxyDatabase
     {
         SQLDatabase myDB = null;
         private static ProxyDatabase proxyDatabase = null;
