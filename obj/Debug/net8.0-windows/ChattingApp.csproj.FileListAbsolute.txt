@@ -56,3 +56,5 @@ D:\Projects\C#\ChattingAppWorkingUDP\bin\Debug\net8.0-windows\runtimes\unix\lib\
 D:\Projects\C#\ChattingAppWorkingUDP\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\Projects\C#\ChattingAppWorkingUDP\obj\Debug\net8.0-windows\ChattingApp.csproj.AssemblyReference.cache
 D:\Projects\C#\ChattingAppWorkingUDP\obj\Debug\net8.0-windows\Chatting.68DA3BCC.Up2Date
+D:\Projects\C#\ChattingAppWorkingUDP\obj\Debug\net8.0-windows\ChattingApp.Form2.resources
+D:\Projects\C#\ChattingAppWorkingUDP\obj\Debug\net8.0-windows\ChattingApp.Form3.resources

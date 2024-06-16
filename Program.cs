@@ -10,18 +10,19 @@
         {
             // Initialize the application configuration
             ApplicationConfiguration.Initialize();
-
-            // Create and start threads for both forms
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            
             Thread form1Thread = new Thread(() =>
             {
-                Application.Run(new Form1("Muhammed Alaa",44444,55555));
+                Application.Run(new Form3());
             });
 
             Thread form2Thread = new Thread(() =>
             {
-                Application.Run(new Form1("Ali Nour",55555,44444));
+                Application.Run(new Form3());
             });
-
+            
             // Set the apartment state to STA (Single Thread Apartment) for both threads
             form1Thread.SetApartmentState(ApartmentState.STA);
             form2Thread.SetApartmentState(ApartmentState.STA);

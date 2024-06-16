@@ -38,6 +38,8 @@ namespace ChattingApp
             button2 = new Button();
             label1 = new Label();
             label2 = new Label();
+            button3 = new Button();
+            portLabel = new Label();
             SuspendLayout();
             // 
             // IPAddressTextBox
@@ -47,7 +49,6 @@ namespace ChattingApp
             IPAddressTextBox.Name = "IPAddressTextBox";
             IPAddressTextBox.Size = new Size(100, 33);
             IPAddressTextBox.TabIndex = 0;
-            IPAddressTextBox.Text = "127.0.0.1";
             // 
             // button1
             // 
@@ -80,6 +81,7 @@ namespace ChattingApp
             // 
             // button2
             // 
+            button2.Enabled = false;
             button2.Location = new Point(408, 397);
             button2.Name = "button2";
             button2.Size = new Size(80, 68);
@@ -94,19 +96,41 @@ namespace ChattingApp
             label1.BackColor = SystemColors.ControlLightLight;
             label1.Location = new Point(32, 13);
             label1.Name = "label1";
-            label1.Size = new Size(130, 20);
+            label1.Size = new Size(91, 20);
             label1.TabIndex = 5;
-            label1.Text = "RemoteIP Address";
+            label1.Text = "Remote Port";
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.BackColor = SystemColors.ControlLightLight;
-            label2.Location = new Point(218, 42);
+            label2.Location = new Point(171, 52);
             label2.Name = "label2";
-            label2.Size = new Size(61, 20);
+            label2.Size = new Size(0, 20);
             label2.TabIndex = 6;
             label2.Text = clientName;
+            // 
+            // button3
+            // 
+            button3.Enabled = false;
+            button3.Location = new Point(360, 6);
+            button3.Name = "button3";
+            button3.RightToLeft = RightToLeft.Yes;
+            button3.Size = new Size(128, 35);
+            button3.TabIndex = 7;
+            button3.Text = "Disconnect";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
+            // portLabel
+            // 
+            portLabel.AutoSize = true;
+            portLabel.BackColor = SystemColors.ControlLightLight;
+            portLabel.Location = new Point(171, 6);
+            portLabel.Name = "portLabel";
+            portLabel.Size = new Size(0, 20);
+            portLabel.TabIndex = 8;
+            portLabel.Text = port.ToString();
             // 
             // Form1
             // 
@@ -114,7 +138,10 @@ namespace ChattingApp
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.AppWorkspace;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(521, 492);
+            Controls.Add(portLabel);
+            Controls.Add(button3);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(button2);
@@ -137,5 +164,7 @@ namespace ChattingApp
         private Button button2;
         private Label label1;
         private Label label2;
+        private Button button3;
+        private Label portLabel;
     }
 }
