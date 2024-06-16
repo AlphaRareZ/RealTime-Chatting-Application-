@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Forms",
+    "\\Forms\\Form1"
   ],
-  "SelectedNode": "\\ChattingApp.sln",
+  "SelectedNode": "\\Forms\\Form1\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }

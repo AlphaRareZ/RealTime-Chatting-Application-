@@ -51,7 +51,7 @@
             SignUpButton.Name = "SignUpButton";
             SignUpButton.Size = new Size(144, 37);
             SignUpButton.TabIndex = 1;
-            SignUpButton.Text = "Sign-UP";
+            SignUpButton.Text = "Sign-up Page";
             SignUpButton.UseVisualStyleBackColor = true;
             SignUpButton.Click += SignUpButton_Click;
             // 
@@ -88,7 +88,7 @@
             SignInButton.Name = "SignInButton";
             SignInButton.Size = new Size(144, 37);
             SignInButton.TabIndex = 8;
-            SignInButton.Text = "Sign-IN";
+            SignInButton.Text = "Sign-in";
             SignInButton.UseVisualStyleBackColor = true;
             SignInButton.Click += SignInButton_Click;
             // 
