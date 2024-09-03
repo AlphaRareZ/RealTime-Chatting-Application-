@@ -8,7 +8,7 @@ namespace ChattingApp.Database
         private SqlConnection? _sqlConnection = null;
 
         private String connString =
-            "Data Source = DESKTOP-VU7KF0Q;Initial Catalog = ChattingApp;Integrated Security = true";
+            "Data Source = -YourServerName-;Initial Catalog = -DataBaseName-;Integrated Security = true";
 
         public SqlConnection? getSqlConnection() => _sqlConnection;
 
